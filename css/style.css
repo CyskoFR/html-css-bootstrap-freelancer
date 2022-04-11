@@ -6,3 +6,11 @@ header {
 [class*="col"] {  /*debug*/
     border: 1px solid lime; 
 }
+
+.bg-green {
+    background-color: #1abc9c;
+}
+
+.hero img {
+    height: 250px;
+}
