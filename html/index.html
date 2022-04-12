@@ -14,18 +14,24 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="row align-items-center">
-        <div class="col">
+    <header class="py-4">
+        <div class="container">
             <div class="row">
-                <div class="col">START BOOTSTRAP</div>
+                <div class="col-6">
+                    <div class="logo">START BOOTSTRAP</div>
+                </div>
+                <div class="col-6 text-end">
+                    <nav class="main-nav d-none d-md-block">
+                        <ul>
+                            <li><a href="">PORTFOLIO</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="btn btn-outline-secondary d-md-none">hamburger</button>
+                </div>
             </div>
         </div>
-        <div class="col">
-            <div class="row justify-content-end">
-                <div class="col-2 text-center">PORTFOLIO</div>
-                <div class="col-2 text-center">ABOUT</div>
-                <div class="col-2 text-center">CONTACT</div>
-            </div>
         </div>
     </header>
     <main>
@@ -105,7 +111,9 @@
             <div class="col-md-4 col-xs-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque, architecto est ex dolorem aut nostrum eius sed dolor nihil corrupti suscipit ullam aliquid itaque. Ea maxime optio voluptatum accusantium!</div>
             <div class="col-md-4 col-xs-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque, architecto est ex dolorem aut nostrum eius sed dolor nihil corrupti suscipit ullam aliquid itaque. Ea maxime optio voluptatum accusantium!</div>
         </div>
-        <div class="bottom-footer row align-items-center justify-content-center">Copyright</div>
+        <div class="bottom-footer row align-items-center text-center">
+            <div class="col ">Copyright</div>
+        </div>
     </footer>
 </body>
 </html>
