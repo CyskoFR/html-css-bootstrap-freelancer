@@ -58,11 +58,32 @@ footer {
     font-size: 20px;
 }
 
-.portfolio .star-left-line, .portfolio .star-right-line {
+.bg-white .star-left-line, .bg-white .star-right-line {
     background-color: black;
 }
 
 .portfolio img {
     width: 100%;
     max-width: 400px;
+}
+
+.btn-green {
+    border: none;
+    background-color: #1abc9c;
+    font-weight: 500;
+}
+
+.form-box {
+    padding: 6px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.form-row {
+    border: none;
+    width: 100%;
+}
+
+.form textarea {
+    border: none;
+    border-bottom: 1px solid lightgrey;
 }
