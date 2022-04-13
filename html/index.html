@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="px-3 py-4">
+    <header class="px-5 py-4">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-6">
@@ -58,22 +58,48 @@
                     <div class="star"><i class="fa-solid fa-star"></i></div>
                     <div class="star-right-line"></div>
                 </div>
+                <!-- card box -->
                 <div class="container">
                     <div class="row my-2 g-4">
-                        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../img/cabin.png" class="rounded" alt="cabin">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="overlay-box">
+                                <img src="../img/cabin.png" class="rounded" alt="cabin">
+                                <a class="img-overlay rounded" href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../img/cake.png" class="rounded" alt="cake">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="overlay-box">
+                                <img src="../img/cake.png" class="rounded" alt="cake">
+                                <a class="img-overlay rounded" href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../img/circus.png" class="rounded" alt="cabin">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="overlay-box">
+                                <img src="../img/circus.png" class="rounded" alt="cabin">
+                                <a class="img-overlay rounded" href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../img/game.png" class="rounded" alt="game">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="overlay-box">
+                                <img src="../img/game.png" class="rounded" alt="game">
+                                <a class="img-overlay rounded" href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../img/safe.png" class="rounded" alt="safe">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="overlay-box">
+                                <img src="../img/safe.png" class="rounded" alt="safe">
+                                <a class="img-overlay rounded" href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12"><img src="../img/submarine.png" class="rounded" alt="submarine">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="overlay-box">
+                                <img src="../img/submarine.png" class="rounded" alt="submarine">
+                                <a class="img-overlay rounded" href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- /card box -->
             </div>    
         </div>
         <div class="about container-fluid bg-green py-5">
@@ -106,32 +132,50 @@
                 <div class="star"><i class="fa-solid fa-star"></i></div>
                 <div class="star-right-line"></div>
             </div>
+            <!-- form -->
             <div class="form">
                 <div class="form-box">
-                    <input type="text" class="form-row" id="formGroupExampleInput" placeholder="Name">
+                    <input type="text" class="form-row" id="formGroupInput" placeholder="Name">
                 </div>
                 <div class="form-box">
-                    <input type="text" class="form-row" id="formGroupExampleInput2" placeholder="Email Address">
+                    <input type="text" class="form-row" id="formGroupInput" placeholder="Email Address">
                 </div>
                 <div class="form-box">
-                    <input type="text" class="form-row" id="formGroupExampleInput2" placeholder="Credit Card Number">
+                    <input type="text" class="form-row" id="formGroupInput" placeholder="Credit Card Number" required>
                 </div>
                 <div class="form-box">
-                    <input type="text" class="form-row" id="formGroupExampleInput2" placeholder="Credit Card PIN">
+                    <input type="text" class="form-row" id="formGroupInput" placeholder="Credit Card PIN">
                 </div>
-                <textarea class="form-control my-2 px-0" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
-                <button type="button" class="btn btn-success btn-green">Send</button>
+                <textarea class="form-control my-2 px-0" id="FormControlTextarea" placeholder="Message" rows="5" required></textarea>
+                <input type="submit" value="Send" class="btn btn-success btn-green"></input>
             </div>
+            <!-- /form -->
         </div>
     </main>
     <footer class="container-fluid">
-        <div class="top-footer row">
-            <div class="col-md-4 col-xs-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque, architecto est ex dolorem aut nostrum eius sed dolor nihil corrupti suscipit ullam aliquid itaque. Ea maxime optio voluptatum accusantium!</div>
-            <div class="col-md-4 col-xs-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque, architecto est ex dolorem aut nostrum eius sed dolor nihil corrupti suscipit ullam aliquid itaque. Ea maxime optio voluptatum accusantium!</div>
-            <div class="col-md-4 col-xs-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt atque, architecto est ex dolorem aut nostrum eius sed dolor nihil corrupti suscipit ullam aliquid itaque. Ea maxime optio voluptatum accusantium!</div>
+        <div class="top-footer row text-center p-5">
+            <div class="col-md-4 col-xs-12">
+                <h5>LOCATION</h5>
+                <p>2215 Pinco Palla Str, New York 43567</p>
+            </div>
+            <div class="col-md-4 col-xs-12 my-3">
+                <h5>AROUND THE WEB</h5>
+                <nav class="footer-nav justify-content-center">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="fb-box nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="nav-item"><a class="gp-box nav-link" href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        <li class="nav-item"><a class="tw-box nav-link" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="nav-item"><a class="ld-box nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h5>ABOUT FREELANCER</h5>
+                <p>Freelancer is a free to use, open source Bootstrap theme created by <a class="footer_start-bootstrap-link" href="#">Start Bootstrap</a>.</p>
+            </div>
         </div>
-        <div class="bottom-footer row align-items-center text-center">
-            <div class="col ">Copyright</div>
+        <div class="bottom-footer row text-center p-3 small">
+            <div class="col">Copyright <i class="fa-regular fa-copyright small"></i><em> Francesco Ricchiuti</em></div>
         </div>
     </footer>
 </body>
