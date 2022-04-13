@@ -21,6 +21,10 @@ header .nav-link {
     font-weight: 500;
 }
 
+header button {
+    text-shadow: 2px 1px black;
+}
+
 .bg-green {
     background-color: #1abc9c;
     color: white;
@@ -147,7 +151,7 @@ footer {
     border: 1px solid white;
     font-size: 14px;
     border-radius: 50%;
-    margin: 0 6px;
+    margin: 6px;
 }
 
 .footer-nav .nav-link:hover {
